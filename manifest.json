@@ -1,0 +1,16 @@
+{
+  "name": "Simple Armory - Toy box",
+  "version": "1.0.0",
+  "description": "Keep track of you World of Warcraft toy collection",
+  "permissions": ["storage"],
+  "icons": { "16": "images/Icon16.png",
+             "48": "images/Icon48.png",
+             "128":"images/Icon128.png" },
+  "content_scripts": [
+    {
+      "matches": ["*://*.simplearmory.com/*"],
+      "js": ["contentscript.js"]
+    }
+  ],
+  "manifest_version": 2
+}
