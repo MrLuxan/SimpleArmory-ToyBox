@@ -19,9 +19,9 @@ window.onload = function() {
 
 function viewToys()
 {
-	let menus = document.getElementsByClassName('container ng-scope')[0];
+	let mainContainer = document.getElementsByClassName('container ng-scope')[0];
 
-	menus.innerHTML = '<div class="page-header"> <h2> Toys  <div class="progress progressRight"> <div class="progress max="100" type="success"> <div id="ToyProgressBar" class="progress-bar progress-bar-success"> <span id="ToyProgressBarNumber" class="ng-binding ng-scope">49 / 62 (79%)</span> </div>	</div> </div> </h2> </div>';
+	mainContainer.innerHTML = '<div class="page-header"> <h2> Toys  <div class="progress progressRight"> <div class="progress max="100" type="success"> <div id="ToyProgressBar" class="progress-bar progress-bar-success"> <span id="ToyProgressBarNumber" class="ng-binding ng-scope">49 / 62 (79%)</span> </div>	</div> </div> </h2> </div>';
 
 	let firstLetter = "";
 	let letterBlock = [];	
@@ -34,7 +34,7 @@ function viewToys()
     	{
     		if(firstLetter != "")
     		{
-    			RenderToyBlock(menus,firstLetter,letterBlock);
+    			RenderToyBlock(mainContainer,firstLetter,letterBlock);
     			letterBlock = [];
     		}
     	}
@@ -42,10 +42,9 @@ function viewToys()
     	firstLetter = letter;
 	});
 
-	RenderToyBlock(menus,firstLetter,letterBlock);
+	RenderToyBlock(mainContainer,firstLetter,letterBlock);
 
 	let checkBoxs = document.getElementsByClassName("toyCheckBox");
-
 	for(let i = 0; i < checkBoxs.length ; i++)
 	{
 		checkBoxs[i].addEventListener("click", clickCheckBox);
