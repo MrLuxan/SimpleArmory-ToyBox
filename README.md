@@ -4,4 +4,4 @@ http://simplearmory.com/ is a great site for tracking progress with achievements
 
 This extension adds toy page and allows you to manually check off the toys you have collected and show ones you still need.
 
-Download from the Chrome Store : https://chrome.google.com/webstore/detail/simple-armory-toy-box/cipjopjhpjmiikddfneebahneledggjl?authuser=1
+Download from the <a href="https://chrome.google.com/webstore/detail/simple-armory-toy-box/cipjopjhpjmiikddfneebahneledggjl"> Chrome Store </a>
