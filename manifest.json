@@ -6,6 +6,7 @@
   "icons": { "16": "images/Icon16.png",
              "48": "images/Icon48.png",
              "128":"images/Icon128.png" },
+  "web_accessible_resources": ["ToyData.json"],
   "content_scripts": [
     {
       "matches": ["*://*.simplearmory.com/*"],
