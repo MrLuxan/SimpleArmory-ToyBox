@@ -8,13 +8,15 @@ Download from the <a href="https://chrome.google.com/webstore/detail/simple-armo
 Toy Data
 Feel free to use <a href="https://raw.githubusercontent.com/MrLuxan/SimpleArmory-ToyBox/master/ToyData.json">ToyData.json</a> in your projects as it was a pain to collect all the data.
 
-Format 
+Format
+```
 {
-	lastUpdate : "2017-08-01",
-	wowVersion : "7.1.0.23222",
-	toys : [
-		   		["WowHeadID","WowHeadImageID","Name"],
-		   		["WowHeadID","WowHeadImageID","Name"],
+	"lastUpdate" : "Date json file last updated",
+	"wowVersion" : "Wow patch number",
+	"toys" : [
+		   		["WowHead ID","WowHead image ID","Name"],
+		   		["WowHead ID","WowHead image ID","Name"],
 		   		ect...
 		   ]
 }
+```
