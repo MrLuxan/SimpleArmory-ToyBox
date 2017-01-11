@@ -1,6 +1,6 @@
 {
-	"lastUpdate" : "2017-08-01",
-	"wowVersion" : "7.1.0.23222",
+	"lastUpdate" : "2017-01-11",
+	"wowVersion" : "7.1.5.23360",
 	"toys" : [
 				["116856","ability_fixated_state_red","\"Blooming Rose\" Contender's Costume"],
 				["116888","ability_fixated_state_blue","\"Night Demon\" Contender's Costume"],
@@ -285,6 +285,7 @@
 				["140363","ability_bossfellord_felfissure","Pocket Fel Spreader"],
 				["127394","inv_podling_red","Podling Camouflage"],
 				["122700","inv_gizmo_goblinboombox_01","Portable Audiophone"],
+				["144393","inv_misc_1h_bucket_c_01","Portable Yak Wash"],
 				["30690","inv_battery_02","Power Converter"],
 				["108739","inv_misc_gem_pearl_08","Pretty Draenor Pearl"],
 				["140309","inv_enchant_prismaticsphere","Prismatic Bauble"],
