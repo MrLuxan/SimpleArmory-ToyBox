@@ -3,21 +3,57 @@ let ToyData;
 
 window.onload = function() {
 	let menus = document.getElementsByClassName('nav navbar-nav');
-	
-	let collectableMenu = GetElementByAttribute("ng-class","{ active: isActive('collectable', true) }",menus[0]);
-	let collectableMenuOptions = collectableMenu.querySelectorAll('.dropdown-menu')[0];
-		
-	let toysMenuItem = ElementFromString('<li><a style="cursor:pointer;">Toys</a></li>')
-	toysMenuItem.addEventListener("click", GetToyData );
-	collectableMenuOptions.appendChild(toysMenuItem); 
 
-	let aboutMenu = menus[1].querySelectorAll('.dropdown-menu')[0];
+	let liLinks = [menus[0].childNodes[1] , menus[0].childNodes[7] , menus[0].childNodes[9]];
+
+	menus[0].childNodes[3].getElementsByTagName("A")[0].removeAttribute("href");
+	menus[0].childNodes[3].style.cursor = "pointer";
+	let lis = menus[0].childNodes[3].getElementsByTagName("LI");
+	for(let i = 0; i < lis.length; i++)
+		liLinks.push(lis[i]);
+	
+	menus[0].childNodes[5].getElementsByTagName("A")[0].removeAttribute("href");
+	menus[0].childNodes[5].style.cursor = "pointer";
+	lis = menus[0].childNodes[5].getElementsByTagName("LI");
+	for(let i = 0; i < lis.length; i++)
+		liLinks.push(lis[i]);
+
+	for(let i = 0; i < liLinks.length; i++)
+		liLinks[i].addEventListener("click", ClearToySelect );
+
+	let toysMenuItem = ElementFromString('<li id="ToyMenuItem"><a style="cursor:pointer;">Toys</a></li>')
+	toysMenuItem.addEventListener("click", ToyMenuItemClick );
+
+	menus[0].childNodes[5].getElementsByTagName("UL")[0].appendChild(toysMenuItem); 
+
+	let aboutMenu = menus[1].querySelector('.dropdown-menu');
 	aboutMenu.appendChild(ElementFromString('<li role="separator" class="divider"></li>'));
 	aboutMenu.appendChild(ElementFromString('<li style="display: block; padding: 3px 10px; clear: both; font-weight: bold; line-height: 1.42857143; color: #333; white-space: nowrap;">Toy box extension</li>')); 
 	aboutMenu.appendChild(ElementFromString('<li><a target="_blank" href="http://Robert-Walker.com">Dev\'s site</a></li>')); 
 
 	LoadCollectedToyData();
 };
+
+function ClearToySelect()
+{	
+	let toyMenu = document.getElementById("ToyMenuItem");
+	toyMenu.className = toyMenu.className.replace("active","").trim();
+	toyMenu.parentNode.parentNode.className = toyMenu.parentNode.parentNode.className.replace("active","").trim();
+}
+
+function ToyMenuItemClick()
+{
+	var elems = document.querySelectorAll(".active");
+	elems.forEach(function(el) { el.classList.remove("active");	});
+
+	let toyMenu = document.getElementById("ToyMenuItem");
+	toyMenu.className = 'active';
+	toyMenu.parentNode.parentNode.className += ' active';
+
+	history.pushState({}, '', window.location.href + "?toys");
+
+	GetToyData();
+}
 
 function GetToyData()
 {
@@ -155,22 +191,6 @@ function ElementFromString(string)
 	let div = document.createElement('div');
 	div.innerHTML = string;
 	return div.firstChild;
-}
-
-function GetElementByAttribute(attr, value, root) {
-    root = root || document.body;
-    if(root.hasAttribute(attr) && root.getAttribute(attr) == value) {
-        return root;
-    }
-    let children = root.children, 
-        element;
-    for(let i = children.length; i--; ) {
-        element = GetElementByAttribute(attr, value, children[i]);
-        if(element) {
-            return element;
-        }
-    }
-    return null;
 }
 
 function SaveCollectedToyData()
