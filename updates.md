@@ -6,7 +6,7 @@
 * Some small aesthetics changes to make toys menu item and page fit in with the site.
 
 
-### 1.1.3 - 17/01/24
+### 1.1.3 - 2017/01/24
 * Lunar Festival toys added
   * [Dragon Head Costume](http://www.wowhead.com/item=143827/dragon-head-costume)
   * [Dragon Body Costume](http://www.wowhead.com/item=143828/dragon-body-costume)
