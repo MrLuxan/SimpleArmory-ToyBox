@@ -1,5 +1,10 @@
+### 1.2.4 - 2017/02/02
+* Went though http://www.wowhead.com/items?filter=216;1; and added 10 toys I was missing
+
+
 ### 1.2.3 - 2017/01/29
 * Some small aesthetics changes to make toys menu item and page fit in with the site.
+
 
 ### 1.1.3 - 17/01/24
 * Lunar Festival toys added
