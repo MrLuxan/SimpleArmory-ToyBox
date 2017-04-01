@@ -1,3 +1,22 @@
+### 1.2.5 - 2017/04/01
+* New Toys from 7.2
+  * A Tiny Set of Warglaives
+  * Akazamzarak's Spare Hat
+  * Carved Wooden Helm
+  * Champion's Salute
+  * Crescent Moonstone
+  * Demon Noggin
+  * Enchanted Bobber
+  * Face of the Forest
+  * Floating Totem
+  * Legion Invasion Simulator
+  * Magical Saucer
+  * Pilfered Sweeper
+  * Pocket Portal of Felstalker Pups
+  * Replica Gondola
+  * Sira's Extra Cloak
+
+
 ### 1.2.4 - 2017/02/02
 * Went though http://www.wowhead.com/items?filter=216;1; and added 10 toys I was missing
 
