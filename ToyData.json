@@ -1,6 +1,6 @@
 {
-	"lastUpdate" : "2017-04-01",
-	"wowVersion" : "7.2.0.23857",
+	"lastUpdate" : "2017-06-14",
+	"wowVersion" : "7.2.0.24015",
 	"toys" : [
 				["116856","ability_fixated_state_red","\"Blooming Rose\" Contender's Costume"],
 				["134831","inv_helmet_44","\"Guy Incognito\" Costume"],
@@ -243,6 +243,7 @@
 				["71259","inv_misc_necklace_firelands_2","Leyara's Locket"],
 				["128536","spell_fire_twilightfire","Leylight Brazier"],
 				["119039","trade_archaeology_orc_bloodtext","Lilian's Warning Sign"],
+				["142452","trade_alchemy_dpotion_a24","Lingering Wyrmtongue Essence"],
 				["70722","spell_burningsoul","Little Wickerman"],
 				["63269","inv_misc_dice_02","Loaded Gnomish Dice"],
 				["60854","inv_eng_mechanicalboomerang2","Loot-A-Rang"],

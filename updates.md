@@ -1,3 +1,6 @@
+### 1.2.6 - 2017/04/01
+* Added [Lingering Wyrmtongue Essence](http://www.wowhead.com/item=142452/lingering-wyrmtongue-essence)
+
 ### 1.2.5 - 2017/04/01
 * New Toys from 7.2
   * A Tiny Set of Warglaives
