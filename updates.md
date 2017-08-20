@@ -1,4 +1,4 @@
-### 1.2.7 - 2017/08/20
+### 1.2.8 - 2017/08/20
 * New Toys
   * ["153293","sha_ability_rogue_bloodyeye_nightborne","Sightless Eye"]
   * ["153253","ability_felarakkoa_feldetonation_green","S.F.E. Interceptor"]
