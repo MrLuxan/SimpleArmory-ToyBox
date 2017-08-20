@@ -1,3 +1,33 @@
+### 1.2.7 - 2017/08/20
+* New Toys
+  * ["153293","sha_ability_rogue_bloodyeye_nightborne","Sightless Eye"]
+  * ["153253","ability_felarakkoa_feldetonation_green","S.F.E. Interceptor"]
+  * ["153204","inv_pet_inquisitoreye","All-Seer's Eye"]
+  * ["153194","inv_icon_shadowcouncilorb_green","Legion Communication Orb"]
+  * ["153193","inv_misc_foot_centaur","Baarut the Brisk"]
+  * ["153183","spell_fire_twilightfireward","Barrier Generator"]
+  * ["153182","paladin_holy","Holy Lightsphere"]
+  * ["153181","inv_inscription_runescrolloffortitude_red","Red Conservatory Scroll"]
+  * ["153180","inv_inscription_runescrolloffortitude_yellow","Yellow Conservatory Scroll"]
+  * ["153179","inv_inscription_runescrolloffortitude_blue","Blue Conservatory Scroll"]
+  * ["153126","spell_fire_felpyroblast","Micro-Artillery Controller"]
+  * ["153124","inv_plate_belt_eredarargus_d_01","Spire of Spite"]
+  * ["153039","oshugun_crystalfragments","Crystalline Campfire"]
+  * ["153004","spell_priest_void-blast","Unstable Portal Emitter"]
+  * ["152982","inv_misc_treasurechest05d","Vixx's Chest of Tricks"]
+  * ["151652","spell_shadow_demoniccircleteleport","Wormhole Generator: Argus"]
+  * ["152574","ability_hunter_murderofcrows","Corbyn's Beacon"]
+  * ["151270","inv_misc_horsecostume_back","Horse Tail Costume"]
+  * ["151271","inv_misc_horsecostume_front","Horse Head Costume"]
+  * ["151343","inv_misc_gnomefundo86","Hearthstation"]
+  * ["151344","inv_misc_gobstationx","Hearthstation"]
+  * ["151348","inv_shield_1h_hordetoy_a_01","Toy Weapon Set"]
+  * ["151349","inv_shield_1h_alliancetoy_a_01","Toy Weapon Set"]
+  * ["152556","ability_shaman_multitotemactivation","Trawler Totem"]
+* Removed 
+  * ["147865","inv_stone_sharpeningstone_02","Crescent Moonstone"]
+  * ["147697","inv_felstalkermount","Pocket Portal of Felstalker Pups"]
+
 ### 1.2.7 - 2017/06/19
 * New Toys
   *["129045","ability_mage_conjurefoodrank12","Whitewater Tsunami"]
