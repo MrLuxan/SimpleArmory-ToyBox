@@ -1,5 +1,9 @@
 ### 1.2.8 - 2017/08/20
 * New Toys
+  * ["129367","trade_archaeology_vrykul_runestick","Vrykul Toy Boat Kit"]
+  
+### 1.2.8 - 2017/08/20
+* New Toys
   * ["153293","sha_ability_rogue_bloodyeye_nightborne","Sightless Eye"]
   * ["153253","ability_felarakkoa_feldetonation_green","S.F.E. Interceptor"]
   * ["153204","inv_pet_inquisitoreye","All-Seer's Eye"]

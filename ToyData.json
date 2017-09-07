@@ -1,6 +1,6 @@
 {
-	"lastUpdate" : "2017-08-20",
-	"wowVersion" : "7.2.5.24742",
+	"lastUpdate" : "2017-09-07",
+	"wowVersion" : "7.3.0.24974",
 	"toys" : [
 				["116856","ability_fixated_state_red","\"Blooming Rose\" Contender's Costume"],
 				["134831","inv_helmet_44","\"Guy Incognito\" Costume"],
@@ -466,6 +466,7 @@
 				["119003","spell_nature_groundingtotem","Void Totem"],
 				["136937","inv_waepon_bow_zulgrub_d_01","Vol'jin's Serpent Totem"],
 				["69775","inv_misc_archaeology_vrykuldrinkinghorn","Vrykul Drinking Horn"],
+				["129367","trade_archaeology_vrykul_runestick","Vrykul Toy Boat Kit"],
 				["150744","inv_misc_map09","Walking Kalimdor with the Earthmother"],
 				["143534","inv_misc_discoball_01","Wand of Simulated Life"],
 				["69215","ability_mount_ridinghorse","War Party Hitching Post"],
