@@ -1,6 +1,6 @@
 {
-	"lastUpdate" : "2017-09-07",
-	"wowVersion" : "7.3.0.24974",
+	"lastUpdate" : "2018-03-13",
+	"wowVersion" : "7.3.5.26124",
 	"toys" : [
 				["116856","ability_fixated_state_red","\"Blooming Rose\" Contender's Costume"],
 				["134831","inv_helmet_44","\"Guy Incognito\" Costume"],
@@ -246,6 +246,7 @@
 				["68806","item_icecrownnecklaced","Kalytha's Haunted Locket"],
 				["86571","inv_misc_stonetablet_04","Kang's Bindstone"],
 				["128462","inv_chest_cloth_draenei_c_01","Karabor Councilor's Attire"],
+				["156833","inv_misc_cat_trinket06","Katy's Stampwhistle"],
 				["88580","inv_mask_01","Ken-Ken's Mask"],
 				["95567","achievement_reputation_kirintor_offensive","Kirin Tor Beacon"],
 				["116125","ability_druid_manatree","Klikixx's Webspinner"],
@@ -309,6 +310,7 @@
 				["35275","inv_misc_orb_02","Orb of the Sin'dorei"],
 				["45014","inv_misc_tournaments_banner_orc","Orgrimmar Banner"],
 				["120276","inv_misc_trinket6oih_wolf1","Outrider's Bridle Chain"],
+				["158149","inv_corgi2","Overtuned Corgi Goggles"],
 				["90427","archaeology_5_0_emptykegofbrewfatherxinwoyin","Pandaren Brewpack"],
 				["86588","inv_musket_04","Pandaren Firework Launcher"],
 				["89869","trade_archaeology_troll_voodoodoll","Pandaren Scarecrow"],
@@ -393,6 +395,7 @@
 				["127695","inv_wand_16","Spirit Wand"],
 				["118222","ability_druid_forceofnature","Spirit of Bashiok"],
 				["113543","inv_misc_foot_centaur","Spirit of Shinri"],
+				["156871","inv_inscription_pigment_bug07","Spitzy"],
 				["72161","trade_archaeology_uldumcanopicjar","Spurious Sarcophagus"],
 				["91904","trade_archaeology_antleredcloakclasp","Stackable Stag"],
 				["109739","spell_arcane_starfire","Star Chart"],
@@ -497,6 +500,7 @@
 				["98552","inv_misc_flute_01","Xan'tish's Flute"],
 				["69896","inv_misc_throwingball_01","Yellow Balloon"],
 				["153180","inv_inscription_runescrolloffortitude_yellow","Yellow Conservatory Scroll"],
+				["156649","archaeology_5_0_ironamulet","Zandalari Effigy Amulet"],
 				["116691","inv_misc_bag_10_black","Zhevra Lounge Cushion"]
 			]
 }

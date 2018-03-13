@@ -1,3 +1,10 @@
+### 1.2.9 - 2017/08/20
+* New Toys
+  * ["156833","inv_misc_cat_trinket06","Katy's Stampwhistle"],
+  * ["156649","archaeology_5_0_ironamulet","Zandalari Effigy Amulet"],
+  * ["156871","inv_inscription_pigment_bug07","Spitzy"],
+  * ["158149","inv_corgi2","Overtuned Corgi Goggles"],
+
 ### 1.2.8 - 2017/08/20
 * New Toys
   * ["129367","trade_archaeology_vrykul_runestick","Vrykul Toy Boat Kit"]
