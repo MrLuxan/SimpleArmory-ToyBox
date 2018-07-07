@@ -1,3 +1,7 @@
+### 1.2.11 - 2017/08/20
+* New Toys
+  * 46 new toys 
+
 ### 1.2.10 - 2017/08/20
 * New Toys
   * ["156833","inv_misc_cat_trinket06","Katy's Stampwhistle"],
